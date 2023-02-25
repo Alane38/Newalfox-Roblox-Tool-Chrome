@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Newalfox Roblox Tools",
+  "author": "Alane",
+  "homepage_url": "https://newalfox.fr",
+  "short_name": "YourExtension",
+  "version": "0.0.1",
+  "description": "Newalfox Roblox Tool is a tool for make anymore which is disponible on the Roblox website.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "contextMenus",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "assets/js/HideRobux.js",
+    "type": "module",
+    "action": {},
+    "browser_action": {}
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icons/icon16.png",
+      "32": "assets/icons/icon32.png",
+      "48": "assets/icons/icon48.png",
+      "128": "assets/icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "32": "assets/icons/icon32.png",
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  }
+}
